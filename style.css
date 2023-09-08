@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 10px;
+}
+
+.max{
+
+    background-color: red;
+
+}
+
+.max h1{
+    font-size: max(20px,2vw);
+}
+
+.min{
+    background-color: white;
+}
+
+.min h1{
+    font-size: min(60px,6vw);
+}
+
